@@ -1,0 +1,12 @@
+{
+  "Author": "Livia",
+  "Name": "Place Stage",
+  "Punchline": "Turn a MakePlace layout into a Stagehand stage.",
+  "Description": "Read a MakePlace .json and write a Stagehand stage into Documents\\Stages.",
+  "InternalName": "PlaceStage",
+  "AssemblyVersion": "0.1.4.0",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "Tags": ["housing"],
+  "AcceptsFeedback": false
+}

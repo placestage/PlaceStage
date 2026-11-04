@@ -1,0 +1,37 @@
+# Place Stage
+
+Place Stage turns a MakePlace layout into a Stagehand stage for Final Fantasy XIV. You pick a MakePlace `.json`, and it writes a stage you can open in the house.
+
+The plugin is named Place Stage. The plugin file is `PlaceStage.dll`. Open it with `/placestage`.
+
+Repository: https://github.com/placestage/PlaceStage.git
+
+You need to be logged into a character. The furniture models come from the game.
+
+## Made by its creators
+
+The creators of Place Stage wanted a way to take a MakePlace layout and use it as a Stagehand stage. The ideas are the creators'. AI only wrote the code.
+
+It is a standalone plugin. It does not connect to other plugins, and it does not collect information. The stage file is written on this computer.
+
+## Convert a layout
+
+1. Open Place Stage with `/placestage`.
+2. Press **Browse** and pick a MakePlace `.json`, or paste the path.
+3. Press **Convert**.
+
+The stage keeps the positions and rotations from that MakePlace file. It is not turned to face your character. Open the stage inside the house those coordinates belong to. Walls and floors are left out.
+
+Colors stay on the model. Place Stage does not stain the furniture, so a piece keeps the look it was built with.
+
+The stage is saved in your Documents folder, under `Stages`, using the name of the MakePlace file. If that name is already there, the new file gets a number, such as `NCL New 2.json`.
+
+## Build
+
+This plugin targets Dalamud API 15.
+
+```powershell
+dotnet build
+```
+
+The files Dalamud needs are `bin\Debug\PlaceStage.dll` and `bin\Debug\PlaceStage.json`. In Dalamud settings, open **Dev Plugins** and add the `bin\Debug` folder. Enable Place Stage in the plugin list. After a new build, reload the plugin in game.

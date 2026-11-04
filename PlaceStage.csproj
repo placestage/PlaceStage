@@ -1,0 +1,23 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>PlaceStage</AssemblyName>
+    <Product>Place Stage</Product>
+    <Version>0.1.4.0</Version>
+    <Description>Turn a MakePlace layout into a Stagehand stage.</Description>
+    <Authors>Livia</Authors>
+    <Author>Livia</Author>
+    <Name>Place Stage</Name>
+    <Punchline>Turn a MakePlace layout into a Stagehand stage.</Punchline>
+    <DalamudApiLevel>15</DalamudApiLevel>
+    <ApplicableVersion>any</ApplicableVersion>
+    <Tags>housing</Tags>
+    <AcceptsFeedback>false</AcceptsFeedback>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="PlaceStage.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
