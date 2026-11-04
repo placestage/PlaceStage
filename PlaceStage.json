@@ -8,5 +8,6 @@
   "ApplicableVersion": "any",
   "DalamudApiLevel": 15,
   "Tags": ["housing"],
-  "AcceptsFeedback": false
+  "AcceptsFeedback": false,
+  "IconUrl": "https://raw.githubusercontent.com/placestage/PlaceStage/main/images/icon.png"
 }
