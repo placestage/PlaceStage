@@ -6,12 +6,6 @@ The plugin is named Place Stage. The plugin file is `PlaceStage.dll`. Open it wi
 
 You need to be logged into a character. The furniture models come from the game.
 
-## Made by its creators
-
-The creators of Place Stage wanted a way to take a MakePlace layout and use it as a Stagehand stage. The ideas are the creators'. AI only wrote the code.
-
-It is a standalone plugin. It does not connect to other plugins, and it does not collect information. The stage file is written on this computer.
-
 ## The link to put in Dalamud
 
 Put this link in **Dalamud Settings**, on the **Experimental** tab, in **Custom Plugin Repositories**:
