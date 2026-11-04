@@ -4,8 +4,6 @@ Place Stage turns a MakePlace layout into a Stagehand stage for Final Fantasy XI
 
 The plugin is named Place Stage. The plugin file is `PlaceStage.dll`. Open it with `/placestage`.
 
-Repository: https://github.com/placestage/PlaceStage.git
-
 You need to be logged into a character. The furniture models come from the game.
 
 ## Made by its creators
@@ -13,6 +11,14 @@ You need to be logged into a character. The furniture models come from the game.
 The creators of Place Stage wanted a way to take a MakePlace layout and use it as a Stagehand stage. The ideas are the creators'. AI only wrote the code.
 
 It is a standalone plugin. It does not connect to other plugins, and it does not collect information. The stage file is written on this computer.
+
+## The link to put in Dalamud
+
+Put this link in **Dalamud Settings**, on the **Experimental** tab, in **Custom Plugin Repositories**:
+
+https://raw.githubusercontent.com/placestage/PlaceStage/main/pluginmaster.json
+
+That is the link Dalamud reads. Place Stage then shows up in the plugin installer.
 
 ## Convert a layout
 

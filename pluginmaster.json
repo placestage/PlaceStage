@@ -1,0 +1,25 @@
+[
+  {
+    "Author": "Livia",
+    "Name": "Place Stage",
+    "Punchline": "Turn a MakePlace layout into a Stagehand stage.",
+    "Description": "Read a MakePlace .json and write a Stagehand stage into Documents\\Stages.",
+    "InternalName": "PlaceStage",
+    "AssemblyVersion": "0.1.4.0",
+    "RepoUrl": "https://github.com/placestage/PlaceStage",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": ["housing"],
+    "AcceptsFeedback": false,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadCount": 0,
+    "LastUpdate": "1793793954",
+    "TestingAssemblyVersion": "0.1.4.0",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/placestage/PlaceStage/main/plugins/PlaceStage/PlaceStage-0.1.4.0.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/placestage/PlaceStage/main/plugins/PlaceStage/PlaceStage-0.1.4.0.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/placestage/PlaceStage/main/plugins/PlaceStage/PlaceStage-0.1.4.0.zip",
+    "IconUrl": "https://raw.githubusercontent.com/placestage/PlaceStage/main/images/icon.png"
+  }
+]
